@@ -1,3 +1,12 @@
+<style>
+#id_logo_531_header {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+</style>
+
 <script>
 
 //import { createApp } from 'vue';
@@ -23,7 +32,9 @@ export default {
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#"></b-navbar-brand>
+      <b-navbar-brand href="#">
+        <img id="id_logo_531_header" src="../../assets/logo_531.png"/>
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
